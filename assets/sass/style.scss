@@ -13,13 +13,12 @@ header{
     padding-top: 15px;
     margin-bottom: 10px;
 
-    .luli-header{
-        .div-logo{
-                margin-top: 20px;
+    .lubi-header{
+        .row-logo{
             img{
-                width: 35%;
+                width: 20%;
                 display: block;
-                margin-left: auto;
+                margin: -15px auto 0 auto;
             }
         }
         .form-search input[type=text] {
@@ -51,6 +50,7 @@ header{
             list-style-type: none;
             display: inline;
             padding-left: 5px;
+            margin-right: 50px;
 
             li{
                 float: left;
@@ -78,7 +78,7 @@ header{
     }
 }
 
-.luli-nav .navbar-nav {
+.lubi-nav .navbar-nav {
     width: 100%;
     text-align: center;
     > li {
@@ -92,5 +92,370 @@ header{
     }
     .active{
         background-color: #c3e1d9;
+    }
+}
+
+.lubi-monthly-collection{
+    padding-bottom: 40px;
+    .mc-first{
+        div{
+            border: 1px solid #c3e1d9;
+            width: 90%;
+            padding: 40px;
+            margin-top: 140px;
+            margin-left: 100px;
+            h3{
+                color: #b0cfb7;
+                margin-bottom: 5px;
+                margin-top: 5px;
+            }
+            h4{
+                color: #b0cfb7;
+                margin-bottom: 40px;
+                font-size: 26px;
+                font-weight: 600;
+                margin-top: 0;
+            }
+            p{
+                width: 80%;
+            }
+        }
+    }
+    .mc-second{
+        img{
+            margin-top: 50px;
+            margin-left: -70px;
+        }
+    }
+}
+.lubi-why-lubi{
+    width: 100%;
+    background-color: #c3e1d9;
+    .wl-first img{
+        width: 60%;
+        float: right;
+    }
+    .wl-second{
+        h3{
+            font-weight: 600;
+            font-style: italic;
+            margin-top: 30px;
+            text-transform: uppercase;
+        }
+    }
+    .wl-third img{
+        width: 64%;
+        float: left;
+    }
+}
+
+.lubi-wedding-invitation{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    h3{
+        text-transform: uppercase;
+        color: #b0cfb7;
+    }
+    .lwi-first{
+        display: flex;
+        margin-top: 20px;
+        .lwif-modern{
+            div{
+                border: 1px solid #c3e1d9;
+                padding-left: 0;
+                padding-right: 0;
+                height: 100%;
+                position: relative;
+                h3{
+                    text-align: center;
+                }
+                img{
+                    position: absolute;
+                    bottom: 0;
+                }
+            }
+        }
+        .lwif-high-level{
+            div{
+                border: 1px solid #c3e1d9;
+                overflow: auto;
+                height: 100%;
+                h3{
+                    float: right;
+                    width: 15%;
+                    padding-left: 10px;
+                    text-align: center;
+                    line-height: 45px;
+                    position: relative;
+                    top: 45%;
+                    transform: translateY(-55%);
+                }
+                img{
+                    float: left;
+                    width: 85%;
+                }
+            }
+        }
+    }
+    .lwi-second{
+        display: flex;
+        margin-top: 20px;
+        .lwis-creation{
+            div{
+                border: 1px solid #c3e1d9;
+                overflow: auto;
+                height: 100%;
+                h3{
+                    float: left;
+                    width: 15%;
+                    padding-left: 10px;
+                    text-align: center;
+                    line-height: 45px;
+                    position: relative;
+                    top: 45%;
+                    transform: translateY(-55%);
+                }
+                img{
+                    float: right;
+                    width: 85%;
+                }
+            }
+        }
+        .lwis-traditional{
+            div{
+                border: 1px solid #c3e1d9;
+                height: 100%;
+                h3{
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+.lubi-procedure{
+    width: 100%;
+    background-color: #c3e1d9;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    .lp-1{
+        text-transform: uppercase;
+        h3{
+            font-size: 20px;
+            margin-bottom: 0;
+            font-weight: bold;
+            margin-top: 0;
+        }
+        p{
+            font-size: 11px;
+            font-weight: 600;
+            margin-left: 10px;
+        }
+    }
+    .lp-2{
+        img{
+            width: 15%;
+            float: left;
+        }
+        div{
+            width: 70%;
+            float: left;
+            padding-left: 10px;
+            h3{
+                margin-top: 0;
+                margin-bottom: 35px;
+                font-weight: 600;
+                text-transform: uppercase;
+                font-size: 20px;
+            }
+        }
+    }
+    .lp-3{
+        img{
+            width: 17%;
+            float: left;
+        }
+        div{
+            width: 70%;
+            float: left;
+            padding-left: 10px;
+            h3{
+                margin-top: 0;
+                margin-bottom: 10px;
+                font-weight: 600;
+                text-transform: uppercase;
+                font-size: 20px;
+            }
+        }
+    }
+    .lp-4{
+        img{
+            width: 18%;
+            float: left;
+        }
+        div{
+            width: 70%;
+            float: left;
+            padding-left: 10px;
+            h3{
+                margin-top: 0;
+                margin-bottom: 10px;
+                font-weight: 600;
+                text-transform: uppercase;
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+.lubi-type-wedding-invitation{
+    padding-top: 20px;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+    .ltwi-item{
+        border: 1px solid #c3e1d9;
+        border-bottom: none;
+        padding-bottom: 10px;
+        a{
+            color: #b0cfb7;
+        }
+        a:hover{
+            text-decoration: none;
+        }
+        h3{
+            margin-top: 30px;
+        }
+    }
+}
+
+
+.lubi-best-sales{
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    h2 { 
+        width:100%; 
+        text-align:center; 
+        border-bottom: 1px solid #c3e1d9; 
+        line-height:0.01em; 
+        margin:10px 0 20px; 
+        font-weight: 600;
+        margin-bottom: 60px;
+        span { 
+            background:#fff; 
+            padding:0 10px; 
+        }
+        span:before{
+            content: "\f101";
+            font-family: 'Font Awesome\ 5 Free';
+            display: inline-block;
+            padding-right: 30px;
+            vertical-align: middle;
+            color: #c3e1d9;
+            font-size: 38px;
+        }
+        span:after{
+            content: "\f100";
+            font-family: 'Font Awesome\ 5 Free';
+            display: inline-block;
+            padding-left: 30px;
+            vertical-align: middle;
+            color: #c3e1d9;
+            font-size: 38px;
+        }
+    }
+}
+
+.lubi-newsletter{
+    width: 100%;
+    background-color: #c3e1d9;
+    text-align: center;
+    padding-bottom: 40px;
+    h2{
+        font-size: 52px;
+        font-weight: 600;
+        margin-bottom: 40px;
+    }
+    form{
+        button{
+            text-transform: uppercase;
+            color: #c3e1d9;
+            background-color: #231f20;
+            border: 1px solid #c3e1d9;
+            outline: 3px solid #231f20;
+            margin-left: 10px;
+            padding: 3px 12px;
+        }
+    }
+}
+
+.lubi-on-fb{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    .row{
+        padding: 10px;
+        border: 1px solid #c3e1d9;
+        h3{
+            color: #b0cfb7;
+            font-weight: 600;
+            font-size: 36px;
+            margin-top: 70px;
+            span{
+                font-weight: 400;
+                font-size: 26px;
+                font-style: italic;
+            }
+        }
+    }
+}
+
+footer{
+    border-top: 1px solid #c3e1d9;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    ul{
+        list-style-type: none;
+        justify-content: center;
+        display: flex;
+        padding-left: 0;
+        li{
+            float: left;
+            border: 1px solid #c3e1d9;
+            padding: 2px;
+            border-radius: 50%;
+            margin-right: 10px;
+
+            a{
+                display: block;
+                padding: 5px 10px;
+                text-decoration: none;
+                color: #333;
+                background-color: #c3e1d9;
+                border-radius: 50%;
+                font-size: 16px;
+                width: 34px;
+                text-align: center;
+            }
+            a:hover{
+                color: red;
+            }
+        }
+    }
+    .footer-bottom{
+        padding-top: 20px;
+        .fb-1{
+            button{
+                background-color: #231f20;
+                color: #fff;
+                font-weight: 600;
+            }
+        }
+        .fb-3{
+            text-align: right;
+            font-size: 16px;
+            img{
+                width: 12%;
+            }
+        }
     }
 }
