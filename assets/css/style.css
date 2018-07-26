@@ -275,6 +275,55 @@ header {
       vertical-align: middle;
       color: #c3e1d9;
       font-size: 38px; }
+  .lubi-best-sales .lbs-item {
+    padding: 15px;
+    border: 1px solid #ccc;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px; }
+    .lubi-best-sales .lbs-item images a {
+      color: #e1a925; }
+    .lubi-best-sales .lbs-item .lbs-title {
+      background-color: rgba(0, 0, 0, 0.4);
+      color: white;
+      position: absolute;
+      width: 100%;
+      left: 0;
+      bottom: 0;
+      padding: 10px;
+      text-transform: uppercase; }
+    .lubi-best-sales .lbs-item .lbs-desc {
+      position: absolute;
+      width: 100%;
+      left: 0;
+      bottom: 0;
+      top: auto;
+      padding-top: 35%;
+      color: white;
+      transition: all 0.6s;
+      height: 0;
+      opacity: 0; }
+      .lubi-best-sales .lbs-item .lbs-desc a {
+        color: white;
+        text-decoration: none; }
+      .lubi-best-sales .lbs-item .lbs-desc .readmore {
+        margin-top: 20px; }
+        .lubi-best-sales .lbs-item .lbs-desc .readmore a {
+          padding: 10px 20px;
+          border: 1px solid white;
+          text-transform: uppercase; }
+        .lubi-best-sales .lbs-item .lbs-desc .readmore a:hover {
+          color: black;
+          background: white;
+          text-decoration: none; }
+  .lubi-best-sales .lbs-item:hover .lbs-title {
+    display: none; }
+  .lubi-best-sales .lbs-item:hover .lbs-desc {
+    height: 100%;
+    bottom: auto;
+    top: 0;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.4); }
 
 .lubi-newsletter {
   width: 100%;
@@ -604,7 +653,10 @@ footer {
     text-align: center; }
 
   .lubi-why-lubi .wl-second h3 {
-    margin-top: 10px; } }
+    margin-top: 10px; }
+
+  .lubi-best-sales .row > div {
+    width: 100%; } }
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
   .lubi-newsletter form button {

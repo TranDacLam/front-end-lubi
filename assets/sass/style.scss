@@ -367,6 +367,67 @@ header{
             font-size: 38px;
         }
     }
+    .lbs-item{
+        padding: 15px;
+        border: 1px solid #ccc;
+        text-align: center;
+        position: relative;
+        margin-bottom: 20px;
+        images{
+            a{
+                color: #e1a925;
+            }
+        }
+        .lbs-title{
+            background-color: rgba(0,0,0,0.4);
+            color: white;
+            position: absolute;
+            width: 100%;
+            left: 0;
+            bottom: 0;
+            padding: 10px;
+            text-transform: uppercase;
+        }
+        .lbs-desc{
+            position: absolute;
+            width: 100%;
+            left: 0;
+            bottom: 0;
+            top: auto;
+            padding-top: 35%;
+            color: white;
+            transition: all 0.6s;
+            height: 0;
+            opacity: 0;
+            a{
+                color: white;
+                text-decoration: none;
+            }
+            .readmore{
+                margin-top: 20px;
+                a{
+                    padding: 10px 20px;
+                    border: 1px solid white;
+                    text-transform: uppercase;
+                }
+                a:hover{
+                    color: black;
+                    background: white;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .lbs-item:hover .lbs-title{
+        display: none;
+    }
+    .lbs-item:hover .lbs-desc{
+        height: 100%;
+        bottom: auto;
+        top: 0;
+        opacity: 1;
+        background-color: rgba(0,0,0,0.4);
+    }
 }
 
 .lubi-newsletter{
@@ -821,6 +882,9 @@ and (max-device-width : 767px) {
     }
     .lubi-why-lubi .wl-second h3{
         margin-top: 10px;
+    }
+    .lubi-best-sales .row >div{
+        width: 100%;
     }
 }
  
