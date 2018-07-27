@@ -1,3 +1,20 @@
+@font-face {
+    font-family: 'Gotham-Black';
+    src: url('./../fonts/Gotham-Black.otf') format('truetype');
+}
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: url('./../fonts/Gotham-Bold.otf') format('truetype');
+}
+@font-face {
+    font-family: 'Sg_Lapidary';
+    src: url('./../fonts/Sg_Lapidary.otf') format('truetype');
+}
+@font-face {
+    font-family: 'Sg_Vuling';
+    src: url('./../fonts/Sg_Vuling.otf') format('truetype');
+}
+
 * {
     box-sizing: border-box;
 }
@@ -40,6 +57,7 @@ header{
             }
             .form-search {
                 margin-top: 5px;
+                font-family: 'Sg_Lapidary';
                 input:focus, button:focus{
                     outline: none;
                 }
@@ -111,16 +129,22 @@ header{
                 color: #b0cfb7;
                 margin-bottom: 5px;
                 margin-top: 5px;
+                font-family: 'Sg_Vuling';
+                font-size: 34px;
             }
             h4{
                 color: #b0cfb7;
                 margin-bottom: 40px;
-                font-size: 26px;
+                font-size: 34px;
                 font-weight: 600;
                 margin-top: 0;
+                font-family: 'Gotham-Black';
             }
             p{
                 width: 80%;
+                font-family: 'Sg_Lapidary';
+                font-size: 16px;
+                color: #000;
             }
         }
     }
@@ -144,6 +168,8 @@ header{
             font-style: italic;
             margin-top: 30px;
             text-transform: uppercase;
+            font-family: 'Sg_Lapidary';
+            font-size: 26px;
         }
     }
     .wl-third img{
@@ -162,6 +188,7 @@ header{
     .lwi-first{
         display: flex;
         margin-top: 20px;
+        font-family: 'Sg_Vuling';
         .lwif-modern{
             div{
                 border: 1px solid #c3e1d9;
@@ -203,6 +230,7 @@ header{
     .lwi-second{
         display: flex;
         margin-top: 20px;
+        font-family: 'Sg_Vuling';
         .lwis-creation{
             div{
                 border: 1px solid #c3e1d9;
@@ -244,10 +272,11 @@ header{
     .lp-1{
         text-transform: uppercase;
         h3{
-            font-size: 20px;
+            font-size: 18px;
             margin-bottom: 0;
             font-weight: bold;
             margin-top: 0;
+            font-family: 'Gotham-Black';
         }
         p{
             font-size: 11px;
@@ -269,7 +298,13 @@ header{
                 margin-bottom: 35px;
                 font-weight: 600;
                 text-transform: uppercase;
-                font-size: 20px;
+                font-size: 18px;
+                font-family: 'Gotham-Black';
+            }
+            p{
+                font-family: 'Sg_Lapidary';
+                font-size: 18px;
+                line-height: 18px;
             }
         }
     }
@@ -287,7 +322,13 @@ header{
                 margin-bottom: 10px;
                 font-weight: 600;
                 text-transform: uppercase;
-                font-size: 20px;
+                font-size: 18px;
+                font-family: 'Gotham-Black';
+            }
+            p{
+                font-family: 'Sg_Lapidary';
+                font-size: 18px;
+                line-height: 18px;
             }
         }
     }
@@ -305,7 +346,13 @@ header{
                 margin-bottom: 10px;
                 font-weight: 600;
                 text-transform: uppercase;
-                font-size: 20px;
+                font-size: 18px;
+                font-family: 'Gotham-Black';
+            }
+            p{
+                font-family: 'Sg_Lapidary';
+                font-size: 18px;
+                line-height: 18px;
             }
         }
     }
@@ -344,6 +391,9 @@ header{
         margin:10px 0 20px; 
         font-weight: 600;
         margin-bottom: 60px;
+        font-family: 'Gotham-Bold';
+        font-size: 36px;
+        color: #000;
         span { 
             background:#fff; 
             padding:0 10px; 
@@ -409,6 +459,7 @@ header{
                     padding: 10px 20px;
                     border: 1px solid white;
                     text-transform: uppercase;
+                    font-family: 'Gotham-Bold';
                 }
                 a:hover{
                     color: black;
@@ -439,6 +490,8 @@ header{
         font-size: 52px;
         font-weight: 600;
         margin-bottom: 30px;
+        font-family: 'Gotham-Bold';
+        letter-spacing: 2px;
     }
     form{
         button{
@@ -449,6 +502,7 @@ header{
             outline: 3px solid #231f20;
             margin-left: 10px;
             padding: 3px 12px;
+            font-family: 'Gotham-Black';
         }
     }
 }
@@ -475,10 +529,11 @@ header{
             font-weight: 600;
             font-size: 36px;
             margin-top: 70px;
+            font-family: 'Gotham-Black';
             span{
                 font-weight: 400;
-                font-size: 26px;
-                font-style: italic;
+                font-size: 32px;
+                font-family: 'Sg_Vuling';
             }
         }
         .lof-icon-left{
@@ -532,9 +587,17 @@ footer{
                 font-weight: 600;
             }
         }
+        .fb-2{
+            h5{
+                font-family: 'Sg_Lapidary';
+                font-size: 17px;
+            }
+        }
         .fb-3{
             text-align: right;
-            font-size: 16px;
+            font-size: 18px;
+            font-family: 'Sg_Lapidary';
+            margin-top: 5px;
             img{
                 width: 12%;
             }
@@ -692,6 +755,9 @@ footer{
         }
         .lp-2, .lp-3, .lp-4{
             width: 33%;
+            > div{
+                width: 80%;
+            }
         }
     }
     .lubi-on-fb .row h3{
@@ -734,6 +800,7 @@ footer{
     }
     header .lubi-header .row-logo img{
         width: 30%;
+        margin: 10px auto 0 auto;
     }
     .lubi-monthly-collection .mc-first div{
         width: 100%;

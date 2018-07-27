@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'Gotham-Black';
+  src: url("./../fonts/Gotham-Black.otf") format("truetype"); }
+@font-face {
+  font-family: 'Gotham-Bold';
+  src: url("./../fonts/Gotham-Bold.otf") format("truetype"); }
+@font-face {
+  font-family: 'Sg_Lapidary';
+  src: url("./../fonts/Sg_Lapidary.otf") format("truetype"); }
+@font-face {
+  font-family: 'Sg_Vuling';
+  src: url("./../fonts/Sg_Vuling.otf") format("truetype"); }
 * {
   box-sizing: border-box; }
 
@@ -30,6 +42,7 @@ header {
     cursor: pointer; }
   header .lubi-header .header-top .form-search {
     margin-top: 5px;
+    font-family: 'Sg_Lapidary';
     float: right; }
     header .lubi-header .header-top .form-search input:focus, header .lubi-header .header-top .form-search button:focus {
       outline: none; }
@@ -84,15 +97,21 @@ header {
     .lubi-monthly-collection .mc-first div h3 {
       color: #b0cfb7;
       margin-bottom: 5px;
-      margin-top: 5px; }
+      margin-top: 5px;
+      font-family: 'Sg_Vuling';
+      font-size: 34px; }
     .lubi-monthly-collection .mc-first div h4 {
       color: #b0cfb7;
       margin-bottom: 40px;
-      font-size: 26px;
+      font-size: 34px;
       font-weight: 600;
-      margin-top: 0; }
+      margin-top: 0;
+      font-family: 'Gotham-Black'; }
     .lubi-monthly-collection .mc-first div p {
-      width: 80%; }
+      width: 80%;
+      font-family: 'Sg_Lapidary';
+      font-size: 16px;
+      color: #000; }
   .lubi-monthly-collection .mc-second img {
     margin-top: 50px;
     margin-left: -70px; }
@@ -107,7 +126,9 @@ header {
     font-weight: 600;
     font-style: italic;
     margin-top: 30px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-family: 'Sg_Lapidary';
+    font-size: 26px; }
   .lubi-why-lubi .wl-third img {
     width: 64%;
     float: left; }
@@ -120,7 +141,8 @@ header {
     color: #b0cfb7; }
   .lubi-wedding-invitation .lwi-first {
     display: flex;
-    margin-top: 20px; }
+    margin-top: 20px;
+    font-family: 'Sg_Vuling'; }
     .lubi-wedding-invitation .lwi-first .lwif-modern div {
       border: 1px solid #c3e1d9;
       padding-left: 0;
@@ -150,7 +172,8 @@ header {
         width: 85%; }
   .lubi-wedding-invitation .lwi-second {
     display: flex;
-    margin-top: 20px; }
+    margin-top: 20px;
+    font-family: 'Sg_Vuling'; }
     .lubi-wedding-invitation .lwi-second .lwis-creation div {
       border: 1px solid #c3e1d9;
       overflow: auto;
@@ -181,10 +204,11 @@ header {
   .lubi-procedure .lp-1 {
     text-transform: uppercase; }
     .lubi-procedure .lp-1 h3 {
-      font-size: 20px;
+      font-size: 18px;
       margin-bottom: 0;
       font-weight: bold;
-      margin-top: 0; }
+      margin-top: 0;
+      font-family: 'Gotham-Black'; }
     .lubi-procedure .lp-1 p {
       font-size: 11px;
       font-weight: 600;
@@ -201,7 +225,12 @@ header {
       margin-bottom: 35px;
       font-weight: 600;
       text-transform: uppercase;
-      font-size: 20px; }
+      font-size: 18px;
+      font-family: 'Gotham-Black'; }
+    .lubi-procedure .lp-2 div p {
+      font-family: 'Sg_Lapidary';
+      font-size: 18px;
+      line-height: 18px; }
   .lubi-procedure .lp-3 img {
     width: 17%;
     float: left; }
@@ -214,7 +243,12 @@ header {
       margin-bottom: 10px;
       font-weight: 600;
       text-transform: uppercase;
-      font-size: 20px; }
+      font-size: 18px;
+      font-family: 'Gotham-Black'; }
+    .lubi-procedure .lp-3 div p {
+      font-family: 'Sg_Lapidary';
+      font-size: 18px;
+      line-height: 18px; }
   .lubi-procedure .lp-4 img {
     width: 18%;
     float: left; }
@@ -227,7 +261,12 @@ header {
       margin-bottom: 10px;
       font-weight: 600;
       text-transform: uppercase;
-      font-size: 20px; }
+      font-size: 18px;
+      font-family: 'Gotham-Black'; }
+    .lubi-procedure .lp-4 div p {
+      font-family: 'Sg_Lapidary';
+      font-size: 18px;
+      line-height: 18px; }
 
 .lubi-type-wedding-invitation {
   padding-top: 20px;
@@ -255,7 +294,10 @@ header {
     line-height: 0.01em;
     margin: 10px 0 20px;
     font-weight: 600;
-    margin-bottom: 60px; }
+    margin-bottom: 60px;
+    font-family: 'Gotham-Bold';
+    font-size: 36px;
+    color: #000; }
     .lubi-best-sales h2 span {
       background: #fff;
       padding: 0 10px; }
@@ -311,7 +353,8 @@ header {
         .lubi-best-sales .lbs-item .lbs-desc .readmore a {
           padding: 10px 20px;
           border: 1px solid white;
-          text-transform: uppercase; }
+          text-transform: uppercase;
+          font-family: 'Gotham-Bold'; }
         .lubi-best-sales .lbs-item .lbs-desc .readmore a:hover {
           color: black;
           background: white;
@@ -333,7 +376,9 @@ header {
   .lubi-newsletter h2 {
     font-size: 52px;
     font-weight: 600;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    font-family: 'Gotham-Bold';
+    letter-spacing: 2px; }
   .lubi-newsletter form button {
     text-transform: uppercase;
     color: #c3e1d9;
@@ -341,7 +386,8 @@ header {
     border: 1px solid #c3e1d9;
     outline: 3px solid #231f20;
     margin-left: 10px;
-    padding: 3px 12px; }
+    padding: 3px 12px;
+    font-family: 'Gotham-Black'; }
 
 .lubi-on-fb {
   padding-top: 30px;
@@ -362,11 +408,12 @@ header {
       color: #b0cfb7;
       font-weight: 600;
       font-size: 36px;
-      margin-top: 70px; }
+      margin-top: 70px;
+      font-family: 'Gotham-Black'; }
       .lubi-on-fb .row h3 span {
         font-weight: 400;
-        font-size: 26px;
-        font-style: italic; }
+        font-size: 32px;
+        font-family: 'Sg_Vuling'; }
     .lubi-on-fb .row .lof-icon-left {
       position: absolute;
       font-size: 18px;
@@ -407,9 +454,14 @@ footer {
       background-color: #231f20;
       color: #fff;
       font-weight: 600; }
+    footer .footer-bottom .fb-2 h5 {
+      font-family: 'Sg_Lapidary';
+      font-size: 17px; }
     footer .footer-bottom .fb-3 {
       text-align: right;
-      font-size: 16px; }
+      font-size: 18px;
+      font-family: 'Sg_Lapidary';
+      margin-top: 5px; }
       footer .footer-bottom .fb-3 img {
         width: 12%; }
 
@@ -489,6 +541,8 @@ footer {
       margin-left: 0px; }
   .lubi-procedure .lp-2, .lubi-procedure .lp-3, .lubi-procedure .lp-4 {
     width: 33%; }
+    .lubi-procedure .lp-2 > div, .lubi-procedure .lp-3 > div, .lubi-procedure .lp-4 > div {
+      width: 80%; }
 
   .lubi-on-fb .row h3 {
     font-size: 26px;
@@ -523,7 +577,8 @@ footer {
     margin: 7.5px 0px; }
 
   header .lubi-header .row-logo img {
-    width: 30%; }
+    width: 30%;
+    margin: 10px auto 0 auto; }
 
   .lubi-monthly-collection .mc-first div {
     width: 100%; }
